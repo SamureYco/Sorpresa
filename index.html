@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    
+  <meta charset="UTF-8" />
+  <title>Nuestro 2° Aniversario</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!-- ===== HERO / PORTADA ===== -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="chip">
+        <span class="chip-dot"></span>
+        <span>2 años de matrimonio · Bodas de Algodón</span>
+      </div>
+
+      <h1 class="names">Samuel & Sandra</h1>
+      <p class="subtitle">
+        Dos años caminando juntos, aprendiendo, creciendo y amándonos con el corazón entero.
+      </p>
+
+      <p class="date-line">15 de noviembre 2023 — 15 de noviembre 2025</p>
+
+      <a href="#album" class="btn">
+        <span class="emoji">📸</span>
+        <span>Ver nuestro álbum</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== ÁLBUM ===== -->
+    <section id="album">
+      <h2>Nuestros recuerdos</h2>
+      <p class="section-note">✨ Solo debes reemplazar las fotos dentro de la carpeta <code>/images</code></p>
+
+      <div class="gallery">
+
+        <!-- FOTO 1 -->
+        <figure class="photo-card">
+          <img 
+            src="images/boda.jpg"
+            alt="Boda"
+            data-title="Nuestra boda"
+            data-text="El inicio de nuestra eternidad."
+            data-date="15 nov 2023"
+          >
+          <figcaption class="photo-body">
+            <div class="photo-title">Nuestra boda</div>
+            <div class="photo-text">El inicio de nuestra eternidad.</div>
+            <div class="photo-date">15 nov 2023</div>
+          </figcaption>
+        </figure>
+
+        <!-- FOTO 2 -->
+        <figure class="photo-card">
+          <img 
+            src="images/momentos.jpg"
+            alt="Momentos"
+            data-title="Un día especial"
+            data-text="Porque contigo, todo se vuelve más bonito."
+            data-date="2024"
+          >
+          <figcaption class="photo-body">
+            <div class="photo-title">Un día especial</div>
+            <div class="photo-text">Porque contigo, todo es más bonito.</div>
+            <div class="photo-date">2024</div>
+          </figcaption>
+        </figure>
+
+        <!-- FOTO 3 -->
+        <figure class="photo-card">
+          <img 
+            src="images/aventura.jpg"
+            alt="Aventura"
+            data-title="Risas y aventuras"
+            data-text="Cada salida contigo es un regalo."
+            data-date="Nuestro viaje"
+          >
+          <figcaption class="photo-body">
+            <div class="photo-title">Risas y aventuras</div>
+            <div class="photo-text">Cada salida contigo es un regalo.</div>
+            <div class="photo-date">Viaje juntos</div>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTADOR DE DÍAS JUNTOS ===== -->
+<section id="contador">
+  <h2>Nuestros días juntos</h2>
+  <p class="section-note">Desde el día más especial: nuestra boda ❤️</p>
+
+  <div class="contador-box">
+    <span class="contador-num" id="diasJuntos">0</span>
+    <span class="contador-label">días a tu lado</span>
+  </div>
+</section>
+
+    <!-- ===== LÍNEA DE TIEMPO ===== -->
+<section id="timeline">
+  <h2>Nuestra historia</h2>
+  <p class="section-note">
+    Algunos de los momentos más especiales que Dios nos permitió vivir juntos. ✨
+  </p>
+
+  <div class="timeline">
+
+    <!-- PLAYA ETEN -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">4 de marzo 2023</span>
+        <h3 class="timeline-title">La playa Eten 💛</h3>
+        <p class="timeline-text">
+          Donde todo comenzó… un día sencillo pero lleno de magia, de emociones y de un futuro que Dios ya tenía preparado para nosotros.
+        </p>
+      </div>
+    </div>
+
+    <!-- COMPROMISO -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">29 de junio 2023</span>
+        <h3 class="timeline-title">Nuestro compromiso 💍</h3>
+        <p class="timeline-text">
+          El día en que te pregunté si querías caminar conmigo toda la vida. Dijiste “sí”… y ese sí cambió mi mundo.
+        </p>
+      </div>
+    </div>
+
+    <!-- BODA -->
+        <div class="timeline-item important">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+        <span class="timeline-date">15 de noviembre 2023</span>
+        <h3 class="timeline-title">Nuestra boda ✨</h3>
+        <p class="timeline-text">
+        El día en que oficialmente nos convertimos en uno. Un día lleno de felicidad y promesas eternas.
+        </p>
+    </div>
+    </div>
+
+    <!-- PRIMER VIAJE -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="timeline-date">15 de marzo 2024</span>
+        <h3 class="timeline-title">Primer viaje juntos 🌎</h3>
+        <p class="timeline-text">
+          Nuestro primer viaje como esposos… descubriendo lugares, pero sobre todo descubriéndonos más el uno al otro.
+        </p>
+      </div>
+    </div>
+
+    <!-- SELLAMIENTO -->
+<div class="timeline-item important">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <span class="timeline-date">6 de febrero 2025</span>
+    <h3 class="timeline-title">Nuestro sellamiento 🤍</h3>
+    <p class="timeline-text">
+      El día más sagrado y especial: cuando fuimos sellados por el tiempo y toda la eternidad. Nuestro amor ahora es eterno.
+    </p>
+  </div>
+</div>
+
+
+    <!-- DOS AÑOS JUNTOS -->
+<div class="timeline-item important">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <span class="timeline-date">15 de noviembre 2025</span>
+    <h3 class="timeline-title">Dos años juntos 🧡</h3>
+    <p class="timeline-text">
+      Dos años llenos de amor, aprendizajes, risas, retos y bendiciones. Y sé que lo mejor aún está por venir para nosotros.
+    </p>
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+<!-- ===== MÚSICA ROMÁNTICA ===== -->
+<section id="musica">
+  <h2>Nuestra canción</h2>
+  <p class="section-note">
+    Presiona el botón para escuchar una canción que me recuerda cuánto te amo. 🎵
+  </p>
+
+  <div class="music-card">
+    <!-- Botón elegante -->
+    <button class="music-btn" id="btnMusica">
+      <span class="music-icon" id="iconMusica">▶</span>
+      <span class="music-text">
+        Reproducir nuestra canción
+      </span>
+    </button>
+
+    <!-- Pista de audio (oculta visualmente) -->
+    <audio id="cancionAmor">
+      <!-- Cambia la ruta y el nombre del archivo aquí -->
+      <source src="musica/musica.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <p class="music-note">
+      *Tip: usa audífonos para sentirla más cerquita de tu corazón.* 💛
+    </p>
+  </div>
+</section>
+
+
+
+    <!-- ===== 24 RAZONES ===== -->
+    <section id="razones">
+      <h2>24 razones por las que te amo</h2>
+      <p class="section-note">💛 Una razón por cada mes contigo.</p>
+
+      <div class="razones-grid">
+
+        <div class="razon-card"><span class="num">1</span><p>Tu sonrisa ilumina mis días y me da paz.</p></div>
+        <div class="razon-card"><span class="num">2</span><p>Amo cómo me miras, como si yo fuera tu lugar seguro.</p></div>
+        <div class="razon-card"><span class="num">3</span><p>Me apoyas incluso en mis días más difíciles.</p></div>
+        <div class="razon-card"><span class="num">4</span><p>Tu paciencia es un regalo que valoro cada día.</p></div>
+        <div class="razon-card"><span class="num">5</span><p>Me amas de una forma tan pura y genuina.</p></div>
+        <div class="razon-card"><span class="num">6</span><p>Eres mi mejor amiga, mi compañera y mi amor.</p></div>
+        <div class="razon-card"><span class="num">7</span><p>Me inspiras a ser mejor hombre cada día.</p></div>
+        <div class="razon-card"><span class="num">8</span><p>Tu fe y tu bondad me acercan más a Dios.</p></div>
+        <div class="razon-card"><span class="num">9</span><p>Amo cómo cuidas de los demás sin esperar nada a cambio.</p></div>
+        <div class="razon-card"><span class="num">10</span><p>Siempre haces que nuestro hogar se sienta cálido y feliz.</p></div>
+        <div class="razon-card"><span class="num">11</span><p>Amo nuestro humor y nuestras risas interminables.</p></div>
+        <div class="razon-card"><span class="num">12</span><p>Te emocionas por las cosas simples y eso me encanta.</p></div>
+        <div class="razon-card"><span class="num">13</span><p>Me abrazas fuerte cuando más lo necesito.</p></div>
+        <div class="razon-card"><span class="num">14</span><p>Contigo aprendí lo que es el amor verdadero.</p></div>
+        <div class="razon-card"><span class="num">15</span><p>Cada día contigo tiene un significado especial.</p></div>
+        <div class="razon-card"><span class="num">16</span><p>Construimos juntos un amor lleno de propósito.</p></div>
+        <div class="razon-card"><span class="num">17</span><p>Tu voz me calma en cualquier tormenta.</p></div>
+        <div class="razon-card"><span class="num">18</span><p>Tu fortaleza me inspira a seguir adelante.</p></div>
+        <div class="razon-card"><span class="num">19</span><p>Celebras mis logros conmigo, grandes o pequeños.</p></div>
+        <div class="razon-card"><span class="num">20</span><p>Eres mi hogar, mi paz y mi felicidad.</p></div>
+        <div class="razon-card"><span class="num">21</span><p>Me haces sentir visto, escuchado y amado.</p></div>
+        <div class="razon-card"><span class="num">22</span><p>No imagino mi vida sin ti ni un solo día.</p></div>
+        <div class="razon-card"><span class="num">23</span><p>Amo cada recuerdo que hemos creado juntos.</p></div>
+        <div class="razon-card"><span class="num">24</span><p>Te amo porque eres tú. Simple y profundamente tú.</p></div>
+
+      </div>
+    </section>
+
+    <!-- ===== MENSAJE FINAL ===== -->
+    <section>
+      <h2>Un mensaje para ti</h2>
+      <div class="love-message">
+        <p>
+          Gracias por estos dos años a tu lado.  
+          Gracias por tu amor, tu paciencia, tu ternura y tu fuerza.
+        </p>
+        <p>
+          No somos perfectos, pero juntos hacemos que la vida sea más bella.  
+          Eres mi bendición más grande.
+        </p>
+        <p class="love-sign">Con todo mi amor,<br>Samuel</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Hecho con amor para ti ♥
+  </footer>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-inner">
+      <div class="lightbox-img-wrap">
+        <img id="lightbox-img" src="">
+      </div>
+      <div class="lightbox-info">
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-text"></p>
+        <span id="lightbox-date"></span>
+      </div>
+      <button class="lightbox-close" id="lightbox-close">×</button>
+
+      <div class="lightbox-nav">
+        <button class="lightbox-btn" id="lightbox-prev">‹</button>
+        <button class="lightbox-btn" id="lightbox-next">›</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 💕 Corazones flotando -->
+<div id="hearts-container"></div>
+
+<style>
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0) scale(0.9);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-120vh) scale(1.1);
+      opacity: 0;
+    }
+  }
+
+  #hearts-container {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .heart {
+    position: absolute;
+    bottom: -40px;
+    color: rgba(255, 105, 180, 0.8); /* rosa pastel */
+    animation: floatUp linear infinite;
+    will-change: transform, opacity;
+  }
+</style>
+
+<script>
+  const container = document.getElementById("hearts-container");
+
+  function createHeart() {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "💖";
+
+    // Posición, tamaño y animación aleatoria
+    const size = Math.random() * 20 + 10; // entre 10 y 30px
+    heart.style.fontSize = `${size}px`;
+    heart.style.left = `${Math.random() * 100}%`;
+    heart.style.animationDuration = `${8 + Math.random() * 5}s`;
+    heart.style.animationDelay = `${Math.random() * 3}s`;
+    heart.style.opacity = 0.5 + Math.random() * 0.5;
+
+    container.appendChild(heart);
+
+    // Eliminar el corazón después de que desaparezca
+    setTimeout(() => {
+      heart.remove();
+    }, 13000);
+  }
+
+  // Crear corazones de forma continua
+  setInterval(createHeart, 500);
+</script>
+
+</body>
+
+<script>
+    
+    document.addEventListener("DOMContentLoaded", () => {
+      const images = Array.from(document.querySelectorAll(".photo-card img"));
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImg = document.getElementById("lightbox-img");
+      const title = document.getElementById("lightbox-title");
+      const text = document.getElementById("lightbox-text");
+      const date = document.getElementById("lightbox-date");
+      const closeBtn = document.getElementById("lightbox-close");
+      const prevBtn = document.getElementById("lightbox-prev");
+      const nextBtn = document.getElementById("lightbox-next");
+
+      let current = 0;
+
+      function open(index){
+        current = index;
+        const img = images[index];
+
+        lightbox.classList.add("visible");
+        lightboxImg.src = img.src;
+        title.textContent = img.dataset.title;
+        text.textContent = img.dataset.text;
+        date.textContent = img.dataset.date;
+      }
+
+      images.forEach((img, i) => {
+        img.addEventListener("click", () => open(i));
+      });
+
+      closeBtn.onclick = () => lightbox.classList.remove("visible");
+
+      prevBtn.onclick = () => open((current - 1 + images.length) % images.length);
+      nextBtn.onclick = () => open((current + 1) % images.length);
+
+      lightbox.addEventListener("click", e => {
+        if(e.target === lightbox) lightbox.classList.remove("visible");
+      });
+    });
+    // ===== CONTADOR DE DÍAS =====
+function calcularDiasJuntos() {
+  // Fecha de la boda (año, mes - 1, día)
+  const fechaInicio = new Date(2023, 10, 15); 
+  const hoy = new Date();
+
+  const diferencia = hoy - fechaInicio;
+  const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+
+  document.getElementById("diasJuntos").textContent = dias;
+}
+
+calcularDiasJuntos();
+
+// ===== REPRODUCTOR DE MÚSICA =====
+function iniciarReproductor() {
+  const audio = document.getElementById("cancionAmor");
+  const btn = document.getElementById("btnMusica");
+  const icon = document.getElementById("iconMusica");
+  const text = btn.querySelector(".music-text");
+
+  if (!audio || !btn) return;
+
+  let estaSonando = false;
+
+  btn.addEventListener("click", () => {
+    if (!estaSonando) {
+      audio.play();
+      estaSonando = true;
+      icon.textContent = "⏸";
+      text.textContent = "Pausar nuestra canción";
+    } else {
+      audio.pause();
+      estaSonando = false;
+      icon.textContent = "▶";
+      text.textContent = "Reproducir nuestra canción";
+    }
+  });
+
+  // Cuando termina la canción, vuelve a estado inicial
+  audio.addEventListener("ended", () => {
+    estaSonando = false;
+    icon.textContent = "▶";
+    text.textContent = "Reproducir nuestra canción otra vez";
+  });
+}
+
+// Llama a la función cuando la página esté lista
+document.addEventListener("DOMContentLoaded", () => {
+  iniciarReproductor();
+});
+
+
+</script>
+</html>
